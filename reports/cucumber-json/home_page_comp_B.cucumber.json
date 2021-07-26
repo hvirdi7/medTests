@@ -1,0 +1,103 @@
+[
+  {
+    "description": "  Description: Companies within B are appearing with all contact information visible",
+    "keyword": "Feature",
+    "name": "Navigation to companies within B",
+    "line": 1,
+    "id": "navigation-to-companies-within-b",
+    "tags": [],
+    "uri": "home_page_comp_B.feature",
+    "elements": [
+      {
+        "id": "navigation-to-companies-within-b;user-navigates-to-company-b-and-views-all-information",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User navigates to company B and views all information",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a user is on the company B homescreen and accepts the Cookie Policy",
+            "result": {
+              "status": "passed",
+              "duration": 6346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user taps on first company from B",
+            "result": {
+              "status": "passed",
+              "duration": 2643000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the informations direct line appears as 0800 298 0299",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the telephone appear as \"0114 225 9000\"",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the stock availability email appears as 'customercare.bbmuk@bbraun.com'",
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the email appear as 'info.bbmuk@bbraun.com'",
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the medicals information email appears as 'medinfo.bbmuk@bbraun.com'",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the results found will be \"1\" results found",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

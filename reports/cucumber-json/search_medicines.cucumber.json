@@ -1,0 +1,93 @@
+[
+  {
+    "description": "  Description: Allow  users to search for many medicines",
+    "keyword": "Feature",
+    "name": "Search for medicines",
+    "line": 1,
+    "id": "search-for-medicines",
+    "tags": [],
+    "uri": "search_medicines.feature",
+    "elements": [
+      {
+        "id": "search-for-medicines;user-searches-for-a-para-medicine",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User searches for a Para medicine",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a user is on the advanced search screen",
+            "result": {
+              "status": "passed",
+              "duration": 4363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user click on smPC",
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "on the all these words field enter 'Para'",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "clicks on Search Full Document",
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "selects Accord-UK Ltd",
+            "result": {
+              "status": "passed",
+              "duration": 255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user clicks on Search",
+            "result": {
+              "status": "passed",
+              "duration": 2366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user will be redirected to search results with 'Search results for Para'",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

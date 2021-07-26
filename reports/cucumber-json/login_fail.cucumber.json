@@ -1,0 +1,163 @@
+[
+  {
+    "description": "  Description: User cannot login ",
+    "keyword": "Feature",
+    "name": "Unsucessful login of user",
+    "line": 1,
+    "id": "unsucessful-login-of-user",
+    "tags": [],
+    "uri": "login_fail.feature",
+    "elements": [
+      {
+        "id": "unsucessful-login-of-user;user-attempts-to-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User attempts to login with invalid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a user is on the homescreen and accepts the Cookie Policies",
+            "result": {
+              "status": "passed",
+              "duration": 2558000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user logins in with 'jameUser@hotmail.com' and 'Password123'",
+            "result": {
+              "status": "passed",
+              "duration": 764000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicks on Login",
+            "result": {
+              "status": "passed",
+              "duration": 2132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user will be shown 'Username and password combination cannot be found'",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "unsucessful-login-of-user;user-attempts-to-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "User attempts to login with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "a user is on the homescreen and accepts the Cookie Policies",
+            "result": {
+              "status": "passed",
+              "duration": 2530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user logins in with 'Harrod@hotmail.com' and 'Password123'",
+            "result": {
+              "status": "passed",
+              "duration": 690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "clicks on Login",
+            "result": {
+              "status": "passed",
+              "duration": 2122000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "unsucessful-login-of-user;user-attempts-to-login-with-invalid-email-address",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "User attempts to login with invalid email address",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "a user is on the homescreen and accepts the Cookie Policies",
+            "result": {
+              "status": "passed",
+              "duration": 2511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user logins in with 'Harrodhotmail.com' and 'Password123'",
+            "result": {
+              "status": "passed",
+              "duration": 775000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "taps on remember me",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "clicks on Login",
+            "result": {
+              "status": "passed",
+              "duration": 2124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the following message appears 'Please enter a valid email address'",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

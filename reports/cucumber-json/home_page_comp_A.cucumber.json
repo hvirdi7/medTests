@@ -1,0 +1,123 @@
+[
+  {
+    "description": "  Description: Companies within A are appearing with all contact information visible",
+    "keyword": "Feature",
+    "name": "Navigation to companies within A",
+    "line": 1,
+    "id": "navigation-to-companies-within-a",
+    "tags": [],
+    "uri": "home_page_comp_A.feature",
+    "elements": [
+      {
+        "id": "navigation-to-companies-within-a;user-navigates-to-company-a-and-views-all-information",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User navigates to company A and views all information",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a user is on the homescreen and accepts the Cookie Policy",
+            "result": {
+              "status": "passed",
+              "duration": 2900000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user taps on first company from A",
+            "result": {
+              "status": "passed",
+              "duration": 811000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the medical information direct line appears as 0800 085 8678",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the fax number is shown \"+44 (0) 1628 856402\"",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the address will be shown as \"Menarini House, Mercury Park, Wycombe Lane, Wooburn Green, Buckinghamshire, HP10 0HH\"",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the medical information email appears as 'menarini@medinformation.co.uk'",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the telephone appears as \"0800 085 8678\"",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the Out of hours telephone appears as \"0800 085 8678\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the logo shows for Menarini",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the results found will be \"22\" results found",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

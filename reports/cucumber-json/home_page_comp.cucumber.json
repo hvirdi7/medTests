@@ -1,0 +1,208 @@
+[
+  {
+    "description": "  Description: Companies within A are appearing with all contact information visible",
+    "keyword": "Feature",
+    "name": "Navigation to companies within A",
+    "line": 1,
+    "id": "navigation-to-companies-within-a",
+    "tags": [],
+    "uri": "home_page_comp.feature",
+    "elements": [
+      {
+        "id": "navigation-to-companies-within-a;user-navigates-to-company-a-and-views-all-information",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User navigates to company A and views all information",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a user is on the homescreen and accepts the Cookie Policy",
+            "result": {
+              "status": "passed",
+              "duration": 3079000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user taps on company A",
+            "result": {
+              "status": "passed",
+              "duration": 841000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the medical information direct line appears as 0800 085 8678",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the fax number is shown \"+44 (0) 1628 856402\"",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the address will be shown as \"Menarini House, Mercury Park, Wycombe Lane, Wooburn Green, Buckinghamshire, HP10 0HH\"",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the medical information email appears as 'menarini@medinformation.co.uk'",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the telephone appears as \"0800 085 8678\"",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the Out of hours telephone appears as \"0800 085 8678\"",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the logo shows for Menarini",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the results found will be \"22\" results found",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-to-companies-within-a;user-navigates-to-company-b-and-views-all-information",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User navigates to company B and views all information",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "a user is on the homescreen and accepts the Cookie Policy",
+            "result": {
+              "status": "passed",
+              "duration": 2759000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user taps on company B",
+            "result": {
+              "status": "passed",
+              "duration": 815000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the information direct line appears as 0800 298 0299",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: expected '<p>' to have text '0800 085 8678', but the text was 'menarini@medinformation.co.uk\\n\\t\\t\\t\\t'\n    + expected - actual\n\n    -'menarini@medinformation.co.uk\\n\\t\\t\\t\\t'\n    +'0800 085 8678'\n\n    at Object.assertDirectLineAppears (https://www.medicines.org.uk/__cypress/tests?p=cypress/integration/examples/home_page_comp.feature:130:46)\n    at Context.eval (https://www.medicines.org.uk/__cypress/tests?p=cypress/integration/examples/home_page_comp.feature:288:13)\n    at Context.resolveAndRunStepDefinition (https://www.medicines.org.uk/__cypress/tests?p=cypress/integration/examples/home_page_comp.feature:10779:29)\n    at Context.eval (https://www.medicines.org.uk/__cypress/tests?p=cypress/integration/examples/home_page_comp.feature:10111:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the telephone appears as \"0114 225 9000\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the stock availability email appears as 'customercare.bbmuk@bbraun.com'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the email appears as 'info.bbmuk@bbraun.com'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the medical information email appears as 'medinfo.bbmuk@bbraun.com'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the results found will be \"1\" results found",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

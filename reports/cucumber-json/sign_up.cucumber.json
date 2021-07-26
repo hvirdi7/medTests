@@ -1,0 +1,93 @@
+[
+  {
+    "description": "  Description: User signs up for account",
+    "keyword": "Feature",
+    "name": "Navigation to sign up screens",
+    "line": 1,
+    "id": "navigation-to-sign-up-screens",
+    "tags": [],
+    "uri": "sign_up.feature",
+    "elements": [
+      {
+        "id": "navigation-to-sign-up-screens;user-navigates-to-sign-up-screen",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User navigates to sign up screen",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a user is on the homescreen and accepts the Cookie Policies",
+            "result": {
+              "status": "passed",
+              "duration": 2459000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user taps Sign up",
+            "result": {
+              "status": "passed",
+              "duration": 318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user will be taken to signup page with 'Welcome to emc'",
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-to-sign-up-screens;user-navigates-to-sign-up-through-request-to-emc-screen",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "User navigates to sign up through request to emc screen",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "a user is on the homescreen and accepts the Cookie Policies",
+            "result": {
+              "status": "passed",
+              "duration": 2377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user taps request access to emc",
+            "result": {
+              "status": "passed",
+              "duration": 394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user will be taken to request access with 'Already registered with emc med data?'",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
